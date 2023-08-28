@@ -53,5 +53,5 @@ class User < ApplicationRecord
         self.session_token ||= generate_unique_session_token
     end
     
-
+    
 end
